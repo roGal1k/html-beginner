@@ -4,25 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task11</title>
+    <title>Task12</title>
 </head>
 <body>
-    <h1>Карта сокровищ</h1>
+    <h2>Запись на курсы</h2>
     <hr>
-    <img src="https://img-fotki.yandex.ru/get/15589/136164467.4/0_f44f5_6c0fdf57_orig.jpg" alt="no ing download" usemap="#treasureMap/>
-
-    <map name="treasureMap">
-        <area shape="circle" coords="275,105,25" href="inform.html" alt="Клад" title="Клад">
-        <area shape="circle" coords="428,42,25" href="activity.html" alt="Акула" title="Акула">
-        <area shape="circle" coords="80,255,30" href="depart.html" alt="Осьминог" title="Осьминог">
-        <area shape="circle" coords="240,265,30" href="techinfo.html" alt="Корабль" title="Корабль">
-    </map>
-    <br>
-    <div>
-        <p>Пройдено:
-            <progress value="30" max="100"></progress>
-        </p>
-    </div>
+    <form>
+        Имя:<br>
+        <label>
+            <input type="text" name="color"><br>
+        </label><br>
+        Язык программирования:<br>
+        <label>
+            <input type="radio" name="color" value="blue">
+            C++
+        </label><br>
+        <label>
+            <input type="radio" name="color" value="blue">
+            PHP
+        </label><br>
+        <label>
+            <input type="radio" name="color" value="blue">
+            Python
+        </label><br>
+        <br>
+        <label>
+            Дополнительная информация:<br>
+            <textarea id="comment" name="userComment" rows="5" cols="50" placeholder="Enter your comment here..."></textarea>
+        </label>
+        <br>
+        <label>
+            Секретное слово:<br>
+            <input type="password" name="password">
+        </label>
+        <br>
+        <br>
+        <button>Send</button>
+        <button>Clear</button>
+    </form>
 </body>
 <hr>
 <foot>
